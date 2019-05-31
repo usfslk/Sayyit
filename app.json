@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Sayyit",
+    "description": "Hear from experts & talk with others about your favorite subjects.",
+    "slug": "sayyit",
+    "privacy": "public",
+    "sdkVersion": "31.0.0",
+    "platforms": ["ios", "android"],
+    "version": "2.0.1",
+    "orientation": "portrait",
+    "primaryColor": "#4178ba",
+    "icon": "./assets/icon.png",
+    "ios": {
+      "bundleIdentifier": "org.sayyit.app",
+      "buildNumber": '1',
+      "supportsTablet": true
+    },
+    "android": {
+      "versionCode": 1,
+      "package": "org.sayyit.app",
+      "permissions": ["READ_PHONE_STATE"]
+    },
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 5000,
+      "enabled": true
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
